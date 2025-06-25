@@ -9,6 +9,14 @@ public class Robot {
     
     // 无参构造器
     public Robot() {}
+
+    public Robot(int id, String name, String type, String description, String imageUrl) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.description = description;
+        this.imageUrl = imageUrl;
+    }
     
     // Getter和Setter
     public int getId() { return id; }
